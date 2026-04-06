@@ -4,4 +4,12 @@ public abstract class Animal {
    public abstract string Speak();
 }
 
-// Add your code here
+public class Cat : Animal
+{
+        public override string Speak()
+      {
+         return Speak();
+      }
+           
+        
+}
